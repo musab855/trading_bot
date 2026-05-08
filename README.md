@@ -26,7 +26,7 @@ requirements.txt
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/trading_bot.git
+git clone https://github.com/musab855/trading_bot.git
 cd trading_bot
 ```
 
