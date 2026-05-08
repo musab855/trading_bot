@@ -1,0 +1,13 @@
+2026-05-08 17:42:56 | INFO     | validators | Input validation passed | Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: None
+2026-05-08 17:42:56 | INFO     | client | Binance client initialized successfully
+2026-05-08 17:42:56 | INFO     | orders | Attempting MARKET BUY order | Symbol: BTCUSDT | Qty: 0.01 | Price: None
+2026-05-08 17:42:56 | DEBUG    | client | Order params before signing: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1778242376495}
+2026-05-08 17:42:57 | INFO     | client | Order placed successfully: {'orderId': 13120631394, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'D8WmN56ccIGmkoERh7TWsl', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1778242378072}
+2026-05-08 17:42:57 | INFO     | orders | Order success | OrderID: 13120631394 | Status: NEW
+2026-05-08 17:48:24 | INFO     | validators | Input validation passed | Symbol: BTCUSDT | Side: SELL | Type: LIMIT | Qty: 0.01 | Price: 100000.0
+2026-05-08 17:48:24 | INFO     | client | Binance client initialized successfully
+2026-05-08 17:48:24 | INFO     | orders | Attempting LIMIT SELL order | Symbol: BTCUSDT | Qty: 0.01 | Price: 100000.0
+2026-05-08 17:48:24 | DEBUG    | client | Order params before signing: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'timestamp': 1778242704211, 'price': 100000.0, 'timeInForce': 'GTC'}
+2026-05-08 17:48:24 | INFO     | client | Order placed successfully: {'orderId': 13120643135, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'ThA89CxhAFbMO7gKL1XAal', 'price': '100000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1778242705737}
+2026-05-08 17:48:24 | INFO     | orders | Order success | OrderID: 13120643135 | Status: NEW
+2026-05-08 17:51:29 | ERROR    | cli | Validation error: Side must be one of ['BUY', 'SELL']
