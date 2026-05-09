@@ -11,3 +11,25 @@
 2026-05-08 17:48:24 | INFO     | client | Order placed successfully: {'orderId': 13120643135, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'ThA89CxhAFbMO7gKL1XAal', 'price': '100000.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1778242705737}
 2026-05-08 17:48:24 | INFO     | orders | Order success | OrderID: 13120643135 | Status: NEW
 2026-05-08 17:51:29 | ERROR    | cli | Validation error: Side must be one of ['BUY', 'SELL']
+2026-05-08 18:39:26 | INFO     | validators | Input validation passed | Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: None
+2026-05-08 18:39:35 | INFO     | client | Binance client initialized successfully
+2026-05-08 18:39:35 | INFO     | orders | Attempting MARKET BUY order | Symbol: BTCUSDT | Qty: 0.01 | Price: None
+2026-05-08 18:39:35 | DEBUG    | client | Order params before signing: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1778245775785}
+2026-05-08 18:39:36 | INFO     | client | Order placed successfully: {'orderId': 13120757047, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'R1ZvnYUEgn184vq8B9qUYD', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1778245777431}
+2026-05-08 18:39:36 | INFO     | orders | Order success | OrderID: 13120757047 | Status: NEW
+2026-05-08 18:42:51 | INFO     | validators | Input validation passed | Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: None
+2026-05-08 18:42:53 | INFO     | cli | Order cancelled by user at confirmation prompt
+2026-05-08 18:42:59 | INFO     | validators | Input validation passed | Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: None
+2026-05-08 18:43:00 | INFO     | client | Binance client initialized successfully
+2026-05-08 18:43:00 | INFO     | orders | Attempting MARKET BUY order | Symbol: BTCUSDT | Qty: 0.01 | Price: None
+2026-05-08 18:43:00 | DEBUG    | client | Order params before signing: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1778245980364}
+2026-05-08 18:43:00 | INFO     | client | Order placed successfully: {'orderId': 13120764061, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'cNGIRFPqEPq0xFPbQk5ypJ', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1778245981857}
+2026-05-08 18:43:00 | INFO     | orders | Order success | OrderID: 13120764061 | Status: NEW
+2026-05-09 13:44:52 | INFO     | validators | Input validation passed | Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: None
+2026-05-09 13:44:55 | INFO     | cli | Order cancelled by user at confirmation prompt
+2026-05-09 13:45:00 | INFO     | validators | Input validation passed | Symbol: BTCUSDT | Side: BUY | Type: MARKET | Qty: 0.01 | Price: None
+2026-05-09 13:45:02 | INFO     | client | Binance client initialized successfully
+2026-05-09 13:45:02 | INFO     | orders | Attempting MARKET BUY order | Symbol: BTCUSDT | Qty: 0.01 | Price: None
+2026-05-09 13:45:02 | DEBUG    | client | Order params before signing: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1778314502272}
+2026-05-09 13:45:02 | INFO     | client | Order placed successfully: {'orderId': 13123157007, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'ABEsgi5PUs25vM5p1U9b7Q', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1778314503357}
+2026-05-09 13:45:02 | INFO     | orders | Order success | OrderID: 13123157007 | Status: NEW

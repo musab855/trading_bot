@@ -29,7 +29,10 @@ def place_order(client: BinanceClient, symbol: str, side: str, order_type: str, 
         print(f"  Order ID     : {response.get('orderId')}")
         print(f"  Status       : {response.get('status')}")
         print(f"  Executed Qty : {response.get('executedQty')}")
-        print(f"  Avg Price    : {response.get('avgPrice', 'N/A')}")
+        
+        avg_price = response.get('avgPrice', '0.00')
+        print(f"  Avg Price    : {avg_price if avg_price != '0.00' else 'N/A (order not yet filled)'}")
+
         logger.info(f"Order success | OrderID: {response.get('orderId')} | Status: {response.get('status')}")
     else:
         print("❌ Order failed!")
